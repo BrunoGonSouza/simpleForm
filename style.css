@@ -1,0 +1,124 @@
+body{
+    
+    margin-top: 3%;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.container{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: bisque ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    body{
+        margin-top: 0;
+        height: 100vh;
+    }
+    .title{
+        text-align: center;
+        font-size: 18pt;
+    }
+    .container{
+        width: 50%;
+    }
+    .password{
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .button{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 588px){
+    .container{
+        height: 100vh;
+    }
+    .button{
+        gap: 30px;
+    }
+    .borndate{
+        padding-bottom: 20px;
+    }
+   
+}
+@media (max-width: 566px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+    }
+}
+@media (max-width:458px){
+    .container{
+        height: 100vh;
+    }
+    .radio1{
+        padding-left: 1px;
+        font-size: 7pt;
+    }
+}
+@media (max-width: 425px){
+    body{
+        margin-top: 0;
+        height: 100vh;
+    }
+    .title{
+        text-align: center;
+        font-size: 18pt;
+    }
+    .container{
+        width: 100%;
+    }
+    .password{
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .button{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 375px){
+    body{
+        margin-top: 0;
+        height: 100vh;
+    }
+    .title{
+        text-align: center;
+        font-size: 18pt;
+    }
+    .container{
+        width: 100%;
+    }
+    .password{
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .button{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 320px){
+    body{
+        margin-top: 0;
+        height: 100vh;
+    }
+    .title{
+        text-align: center;
+        font-size: 18pt;
+    }
+    .container{
+        width: 100%;
+    }
+    .password{
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .button{
+        padding-top: 10px;
+    }
+}
